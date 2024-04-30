@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(242, 238, 238);
+  font-family: "Poppins", sans-serif;
+}
+
+.owl-carousel .owl-nav{
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   bottom: 80px;
+   width: 100%;      
+}
+.owl-carousel .owl-dots{
+   position: absolute;
+   bottom: 5px;   
+   left: 10px;  
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: gray;
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 0;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: gray;
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 0;
+}
