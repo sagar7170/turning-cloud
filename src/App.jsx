@@ -27,9 +27,11 @@ function App() {
   return (
     <div className='flex'>
       <Navigation />
-      <div className="w-full">
-        <Header />
-        <div className="flex">
+      <div className="w-full ">
+      <div className="ms-14">
+      <Header/>
+      </div>
+        <div className="flex ms-14">
           <div className="">
             <Searchbar />
             <AllProducts />

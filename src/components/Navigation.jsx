@@ -12,7 +12,7 @@ import ReceiptLongOutlinedIcon from '@mui/icons-material/ReceiptLongOutlined';
 import StorageOutlinedIcon from '@mui/icons-material/StorageOutlined';
 function Navigation() {
   return (
-    <div className='h-screen flex justify-evenly w-14 flex-col gap-4 pl-2 bg-white'>
+    <div className='h-screen fixed flex justify-evenly w-14 flex-col gap-4 pl-2 bg-white'>
       <SpaceDashboardOutlinedIcon fontSize='large'/>
       <HomeOutlinedIcon fontSize='large'/>
       <CheckroomOutlinedIcon fontSize='large'/>
